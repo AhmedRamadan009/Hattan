@@ -177,8 +177,11 @@
 
             $(document).on('click', '.mobile-button', function() {
                 $(this).toggleClass('active');
-                $('#main-nav-mobi').slideToggle();
+                $('#main-nav-mobi').animate({width:'toggle'},350);
+               
             })
+           
+             
 
             $(document).on('click', '#main-nav-mobi .arrow', function() {
                 $(this).toggleClass('active').next().slideToggle();
