@@ -530,7 +530,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 #main-nav li:hover .sub-menu { opacity: 1; visibility: visible; -webkit-transform: translateY(0);-moz-transform: translateY(0); -ms-transform: translateY(0);
    -o-transform: translateY(0); transform: translateY(0); }
-#main-nav .sub-menu li a:hover, #main-nav .sub-menu li.current-item a { color: #ffc30c; }
+#main-nav .sub-menu li a:hover, #main-nav .sub-menu li.current-item a { color: #dc0032; }
       
 /* Mobile Menu */
 #main-nav-mobi { display: block; margin: 0 auto; width: 75%; position: absolute; top: 100%; right: 0; z-index: 9999; background-color: #f6f6f6;  }
@@ -539,10 +539,10 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 #main-nav-mobi ul > li > a { color: #999; display: inline-block; font-size: 14px; text-transform: uppercase; line-height: 48px; font-weight: 600; }
 #main-nav-mobi ul li:first-child { border-top: 0px; }
 #main-nav-mobi ul > li.current-menu-item > a,
-#main-nav-mobi ul > li > a:hover { color: #ffc30c; }
+#main-nav-mobi ul > li > a:hover { color: #dc0032; }
 
 #main-nav-mobi .menu-item-has-children .arrow { cursor: pointer; display: inline-block; font-size: 20px; font-family: "FontAwesome"; line-height: 48px; position: absolute; right: 15px; text-align: center; top: 0; width: 48px; }
-#main-nav-mobi .menu-item-has-children .arrow:before { content: "\f103"; color: #b1b1b1; }
+#main-nav-mobi .menu-item-has-children .arrow:before { content: "\f103"; color: #dc0032; }
 #main-nav-mobi .menu-item-has-children .arrow.active:before { content: "\f102"; }
 #main-nav-mobi ul ul li { background-color: #f2f2f2; border-color: #ebebeb; }
 
@@ -590,7 +590,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .header-style-2 #main-nav > ul > li > a,
 .header-style-2 #site-header .header-search-icon { line-height: 101px; }
 
-.header-style-2 #main-nav > ul > li > a:after { content: ""; position: absolute; bottom: 0; left: 0; width: 0%; height: 3px; background-color: #ffc30c; opacity: 0; visibility: hidden;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.header-style-2 #main-nav > ul > li > a:after { content: ""; position: absolute; bottom: 0; left: 0; width: 0%; height: 3px; background-color: #dc0032; opacity: 0; visibility: hidden;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 .header-style-2 #main-nav > ul > li.current-menu-item > a:after ,
 .header-style-2 #main-nav > ul > li > a:hover:after { opacity: 1; visibility: visible; width: 100%; }
 
